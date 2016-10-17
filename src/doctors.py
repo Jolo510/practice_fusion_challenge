@@ -25,11 +25,11 @@ class Doctor:
 				comparing_doctor: A doctor object to compare too
 
 			Returns:
-				A similarity score between the two doctors
+				A similarity score between the two doctors. Score ranges from 0 - 6
 		"""
 		score = 0
 		score_points = {
-			'specialty': 3,
+			'specialty': 3,		# Largest factor because the doctors have the same profession
 			'area': 2,
 			'score': 1
 		};
@@ -46,5 +46,4 @@ class Doctor:
 		score += score_points['score'] - comparing_score_range_difference
 
 		return score
-
 
