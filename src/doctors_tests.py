@@ -1,3 +1,7 @@
+"""
+	Unit Test for doctors.py
+	- To Run from terminal: python3 doctors_tests.py -v
+"""
 import unittest
 
 from doctors import Doctor

@@ -1,3 +1,7 @@
+"""
+	Unit Test for similar_doctors.py
+	- To Run from terminal: python3 similar_doctors_tests.py -v
+"""
 import unittest
 from similar_doctors import similar_doctors_list
 from doctors import Doctor
