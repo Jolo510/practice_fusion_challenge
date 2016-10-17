@@ -18,6 +18,9 @@ class Doctor:
 		self.area = area
 		self.score = score
 
+	def __str__(self):
+		return 'ID: {0} Name: {1} Specialty: {2} Area: {3} Score: {4}'.format(self.num_id, self.name, self.specialty, self.area, self.score)
+
 	def similarity_score(self, comparing_doctor):
 		""" Generates a similarity score
 
